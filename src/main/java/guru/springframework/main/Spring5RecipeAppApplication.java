@@ -5,7 +5,12 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.ComponentScan;
 
 @SpringBootApplication
-@ComponentScan(basePackages = {"guru.springframework.config", "guru.springframework.controller", "guru.springframework.bootstrap"})
+@ComponentScan(basePackages = {
+		"guru.springframework.config",
+		"guru.springframework.controller",
+		"guru.springframework.bootstrap",
+		"guru.springframework.service"
+})
 public class Spring5RecipeAppApplication {
 
 	public static void main(String[] args) {
